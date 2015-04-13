@@ -1,0 +1,18 @@
+# Site settings
+title: Hüseyin Zengin
+email: hzengin99@gmail.com
+description: "Personal Blog"
+logo_location: "http://placehold.it/100x100&text=LOGO"
+
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: pygments
+
+#Other Global Configuration
+exclude: ['README.md']
